@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar CEP</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1 class="title">Consultar CEP</h1>
+            
+            <div class="form">
+                
+                <label for="">Digite o seu CEP</label>
+                <input  type="number" id="cep" placeholder="00.000-000 " /> <button onclick="consultarEndereco()" ><i class="ri-search-line"></i></button>
+            </div>
+            
+        </div>
+        <div class="resultado" id="resultado">Seu resultado aqui</div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
